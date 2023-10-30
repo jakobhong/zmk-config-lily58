@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC           &kp Q         &kp W         &kp E             &kp R         &kp T                                             &kp Y                  &kp U        &kp I      &kp O       &kp P          &kp ENTER
-&kp TAB           &kp A         &kp S         &kp D             &kp F         &kp G                                             &kp H                  &kp J        &kp K      &kp L       &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT    &kp Z         &kp X         &kp C             &kp V         &kp B                                             &kp N                  &kp M        &kp COMMA  &kp PERIOD  &kp UP_ARROW   &kp RS(SLASH)
-&kp LEFT_CONTROL  &bt BT_SEL 1  &bt BT_SEL 2  &kp MINUS         &kp EQUAL     &kp LEFT_PARENTHESIS  &kp DELETE       &kp F2     &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp PG_DN  &kp LEFT    &kp DOWN       &kp RIGHT
-                                              &kp LEFT_COMMAND  &kp LEFT_ALT  &mo 1                 &kp BACKSPACE    &kp SPACE  &mo 2                  &kp BSPC     &kp RGUI
+&kp ESC           &kp Q         &kp W         &kp E      &kp R      &kp T                                             &kp Y                  &kp U        &kp I      &kp O       &kp P          &kp ENTER
+&kp TAB           &kp A         &kp S         &kp D      &kp F      &kp G                                             &kp H                  &kp J        &kp K      &kp L       &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT    &kp Z         &kp X         &kp C      &kp V      &kp B                                             &kp N                  &kp M        &kp COMMA  &kp PERIOD  &kp UP_ARROW   &kp RS(SLASH)
+&kp LEFT_CONTROL  &bt BT_SEL 1  &bt BT_SEL 2  &kp MINUS  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp DELETE       &kp F2     &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp PG_DN  &kp LEFT    &kp DOWN       &kp RIGHT
+                                              &kp LALT   &mo 2      &mo 1                 &kp BACKSPACE    &kp SPACE  &kp C_AL_DOCS          &kp LWIN     &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4        &kp F5   &kp F6                        &kp N7        &kp N8        &kp N9        &kp PLUS   &kp ASTERISK  &trans
-&kp F7  &kp F8  &kp F9  &kp F10       &kp F11  &kp F12                       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp N0        &trans
-&trans  &trans  &trans  &kp CAPSLOCK  &trans   &bt BT_CLR                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp RIGHT     &trans
-&trans  &trans  &trans  &trans        &trans   &trans      &trans    &trans  &kp N0        &trans        &trans        &kp LBKT   &kp RBKT      &trans
-                        &trans        &trans   &trans      &trans    &trans  &trans        &trans        &trans
+&kp F1  &kp F2  &kp F3  &kp F4        &kp F5                    &kp F6                        &kp N7        &kp N8        &kp N9        &kp PLUS   &kp ASTERISK  &trans
+&kp F7  &kp F8  &kp F9  &kp F10       &kp F11                   &kp F12                       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp N0        &trans
+&trans  &trans  &trans  &kp CAPSLOCK  &kp C_AL_KEYBOARD_LAYOUT  &bt BT_CLR                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp RIGHT     &trans
+&trans  &trans  &trans  &trans        &trans                    &trans      &trans    &trans  &kp N0        &trans        &trans        &kp LBKT   &kp RBKT      &trans
+                        &trans        &trans                    &trans      &trans    &trans  &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
