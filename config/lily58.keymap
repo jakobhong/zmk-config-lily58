@@ -40,11 +40,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4        &kp F5                    &kp F6                        &kp N7        &kp N8        &kp N9        &kp PLUS   &kp ASTERISK  &trans
-&kp F7  &kp F8  &kp F9  &kp F10       &kp F11                   &kp F12                       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp N0        &trans
-&trans  &trans  &trans  &kp CAPSLOCK  &kp C_AL_KEYBOARD_LAYOUT  &bt BT_CLR                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP     &kp RIGHT     &trans
-&trans  &trans  &trans  &trans        &trans                    &trans      &trans    &trans  &kp N0        &trans        &trans        &kp LBKT   &kp RBKT      &trans
-                        &trans        &trans                    &trans      &trans    &trans  &trans        &trans        &trans
+&kp F1  &kp F2  &kp F3  &kp F4        &kp F5   &kp F6                        &kp N7        &kp N8        &kp N9        &kp PLUS    &kp ASTERISK  &trans
+&kp F7  &kp F8  &kp F9  &kp F10       &kp F11  &kp F12                       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS   &kp N0        &trans
+&trans  &trans  &trans  &kp CAPSLOCK  &trans   &bt BT_CLR                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT  &kp KP_COMMA  &trans
+&trans  &trans  &trans  &trans        &trans   &trans      &trans    &trans  &kp N0        &trans        &trans        &kp LBKT    &kp RBKT      &trans
+                        &trans        &trans   &trans      &trans    &trans  &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
